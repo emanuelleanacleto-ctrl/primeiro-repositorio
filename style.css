@@ -2,6 +2,8 @@ body {
     background-color: rgb(159, 191, 240);
     color: rgb(143, 188, 143)
     font-family: "Lora", sans-serif;
+    margin: 0px;
+    margin-bottom :100px;
 }
 
 header{
@@ -11,7 +13,7 @@ padding: 10px;
 color: rgb(235, 230, 230);
 }
 
-section {
+.chamada {
    background-color:rgb(30, 87, 127); /*cor escolhida*/
    padding-bottom: 80px;
    padding-top: 80px;
@@ -22,6 +24,7 @@ section {
 .chamada-texto {
     margin-right: 5%;
 }
+
 h1 {
     font-size: 30px;                  /* tamanho da fonte */
     text-align: center;               /* centralizado */
@@ -31,4 +34,30 @@ h1 {
 p {
     font-size: 16px;
     color: rgb(58, 101, 58);
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:houver {
+    opacity: 1.0;
+    border: 1px solid green;
+}
+
+.categoria h2 {
+    color: brown;
 }
