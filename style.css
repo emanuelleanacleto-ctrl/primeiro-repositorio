@@ -33,7 +33,7 @@ h1 {
 
 p {
     font-size: 16px;
-    color: rgb(0, 255, 0);
+    color: rgb(11, 28, 153);
 }
 
 .categoria {
@@ -55,9 +55,9 @@ p {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(11, 28, 153);
 }
 
 .categoria h2 {
-    color: brown;
+    color: rgb(11, 28, 153)
 }
